@@ -220,7 +220,7 @@ In order to restart the simulation from previous simulation we need to perform t
 
 2.  Use the dumped restart PDB file to set the ``Coordinates`` for each box.
 
-3.  Use the dumped merged PSF file to set the ``Structure`` for both boxes.
+3.  Use the dumped restart PSF file to set the ``Structure`` for both boxes.
 
 4.  It is a good practice to comment out the ``CellBasisVector`` by adding '#' at the beginning of each cell basis vector. However, GOMC will override 
     the cell basis information with the cell basis data from restart PDB file/files.
